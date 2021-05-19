@@ -1,0 +1,21 @@
+{
+    "name": "rom/common",
+    "description": "This is a package for the Microservices",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roman Belorussky",
+            "email": "rbelorussky@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "laravel/framework": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Microservices\\": "src"
+        }
+    }
+}
